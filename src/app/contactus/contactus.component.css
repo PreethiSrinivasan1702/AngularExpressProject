@@ -1,0 +1,66 @@
+h3 {
+    text-align: center;
+    font-size: 24px;
+  }
+  
+  .userform {
+    max-width: 590px;
+    margin: 23px;
+    padding: 34px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 41px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .userform input[type="text"],
+  .userform input[type="number"] {
+    flex: 0 0 calc(48% - 10px); /* Adjust width based on your design */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .userform input[type="submit"],
+  .userform input[type="button"] {
+    background-color: #d4f16d;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .userform input[type="submit"]:hover,
+  .userform input[type="button"]:hover {
+    background-color: #af9e4c;
+  }
+  
+  .tabledetails table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .tabledetails th,
+  .tabledetails td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .tabledetails th {
+    background-color: #ecd387;
+    color:black;
+  }
+  
+  .tabledetails tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .tabledetails tr:hover {
+    background-color: #e0e0e0;
+  }
+  

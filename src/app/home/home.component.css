@@ -1,0 +1,73 @@
+/* Style the form container */
+.userform{
+    margin-top: 5px;
+    padding-bottom: -30px;
+}
+form {
+    max-width: 400px;
+    margin: 15px;
+    padding: 48px;
+    background-color: #f0f0f0;
+    border: 2px solid #ccc;
+    border-radius: 58px;
+  }
+  
+  /* Style form elements */
+  form input[type="text"],
+  form input[type="password"],
+  form input[type="email"],
+  form input[type="number"]
+   {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form input[type="submit"],
+  form input[type="button"] {
+    background-color: #d4f16d;
+    color: #141414;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 7px;
+    cursor: pointer;
+  }
+  
+  form input[type="submit"]:hover,
+  form input[type="button"]:hover {
+    background-color:#af9e4c;
+  }
+  
+  .tabledetails{
+    align-items: center;
+    margin-top: 0px;
+    margin-top: -15px;
+}
+  table {
+    width: 70%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  table th,
+  table td {
+    border: 2px solid #9f9a9a;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  table th {
+    background-color: #ecd387;
+    color: #1e1d1d;
+  }
+  
+  /* Style the response label */
+  label {
+    display: block;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #ecd387;
+  }
+  
